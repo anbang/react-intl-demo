@@ -27,7 +27,7 @@ const Root = () => {
       <IntlProvider
         locale={locale}
         key={locale}
-        // defaultLocale="en"
+        defaultLocale="en"
         messages={messages}>
         <App setLocale={setLocale} />
       </IntlProvider >
